@@ -6,7 +6,7 @@ Das ist ein Experiment mit einem "Gollum" basiertes [Wiki] (http://localhost:875
 
 Das Repository enthält ein _Dockerfile_. Das entsprechen Image wird 
 
-    ./.docker_build.sh
+     ./.docker_build.sh
 
 erzeugt. Es entstehen letztlich die Images _ruby_ und _personalwiki_.
 
