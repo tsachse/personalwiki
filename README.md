@@ -4,7 +4,12 @@ Das ist ein Experiment mit einem "Gollum" basiertes [Wiki] (http://localhost:875
 
 ## Docker-Image bauen
 
-Das Repository enthält ein _Dockerfile_. Das entsprechen Image wird ``./.docker_build.sh`` erzeugt.
+Das Repository enthält ein _Dockerfile_. Das entsprechen Image wird ``./.docker_build.sh`` erzeugt. 
+Es entstehen letztlich die Images _ruby_ und _personalwiki_.
+
+Mit den folgenden Kommandos können die Images gelöscht werden:
+    docker rmi personalwiki
+    docker rmi ruby
 
 ## Container erzeugen und Wiki starten via run starten
 
@@ -15,7 +20,7 @@ Der Container hat den Namen personalwiki. ``docker logs personalwiki`` zeigt die
 
 ## Wiki stoppen
 
-Das Wiki kann mit ``docker stop personalwiki`` angehalten werden.
+Das Wiki kann mit ``docker stop personalwiki`` angehalten werden. Bei Bedarf kann danach mit ``docker rm personalwiki`` der Container entsorgt werden.
 
 ## Wiki starten
 
