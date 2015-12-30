@@ -1,6 +1,6 @@
 # Personal-Wiki
 
-Das ist ein Experiment mit einem "Gollum" basiertes Wiki, dass in einer Laufzeitumgebung via Docker zu lebt.
+Das ist ein Experiment mit einem "Gollum" basiertes [Wiki] (http://localhost:8759/), dass in einer Laufzeitumgebung via Docker zu lebt.
 
 ## Docker-Image bauen
 
