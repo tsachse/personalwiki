@@ -1,0 +1,68 @@
+== Links
+
+http://www.nomachetejuggling.com/2012/05/15/personal-wiki-using-github-and-gollum-on-os-x/
+
+== Wiki anpassen
+
+.custom.css
+------
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300); 
+body {
+  font-family: helvetica,arial,freesans,clean,sans-serif;
+}
+
+#head h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h1 {
+     font-weight: 300;
+     font-family: 'Open Sans', helvetica, sans-serif; 
+     /* font-family: helvetica, sans-serif; */
+}
+
+#head {
+    margin-top: 1em;
+}
+
+#wiki-sidebar {
+      border-radius : 0;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+          border-right: none;
+          border-top: none;
+          border-bottom: none;
+}
+
+#wiki-wrapper {
+  max-width: 90%;
+}
+
+#wiki-sidebar li {
+      list-style-type: none;
+}
+
+.toc {
+     border: none;
+}
+
+a#minibutton-rename-page {
+  display: none;
+  border: 0;
+  padding: 0;
+}
+
+a#delete-link {
+  display: none;
+  border: 0;
+  padding: 0;
+}
+
+.minibutton a.action-fileview, .minibutton a.action-page-history {
+  display: none;
+  border: 0;
+  padding: 0;
+}
+
+------
