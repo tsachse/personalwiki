@@ -17,7 +17,7 @@ Mit den folgenden Kommandos können die Images gelöscht werden:
 
 ## Container erzeugen und Wiki starten via run starten
 
-Nachdem das Image gebaut worden ist, wird mit `
+Nachdem das Image gebaut worden ist, wird mit
 
    ./.docker_run.sh
 
