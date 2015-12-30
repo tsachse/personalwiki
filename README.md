@@ -8,6 +8,7 @@ Das Repository enthält ein _Dockerfile_. Das entsprechen Image wird ``./.docker
 Es entstehen letztlich die Images _ruby_ und _personalwiki_.
 
 Mit den folgenden Kommandos können die Images gelöscht werden:
+
     docker rmi personalwiki
     docker rmi ruby
 
