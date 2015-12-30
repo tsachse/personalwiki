@@ -4,8 +4,11 @@ Das ist ein Experiment mit einem "Gollum" basiertes [Wiki] (http://localhost:875
 
 ## Docker-Image bauen
 
-Das Repository enthält ein _Dockerfile_. Das entsprechen Image wird ``./.docker_build.sh`` erzeugt. 
-Es entstehen letztlich die Images _ruby_ und _personalwiki_.
+Das Repository enthält ein _Dockerfile_. Das entsprechen Image wird 
+
+./.docker_build.sh
+
+erzeugt. Es entstehen letztlich die Images _ruby_ und _personalwiki_.
 
 Mit den folgenden Kommandos können die Images gelöscht werden:
 
