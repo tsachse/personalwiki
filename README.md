@@ -8,7 +8,7 @@ Das Repository enthält ein _Dockerfile_. Das entsprechen Image wird ``./.docker
 
 ## Wiki starten
 
-Die Dockerumgebung wird mit ``./.docker_run.sh`` gestartet. Aus Wiki kann mit Port 8759 zugegriffen werden. http://localhost:8759/
+Die Dockerumgebung wird mit ``./.docker_run.sh`` gestartet. Aus Wiki kann mit Port 8759 zugegriffen werden. [Wiki](http://localhost:8759/)
 
 ## Änderungen mit github synchronisieren
 
