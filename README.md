@@ -17,7 +17,11 @@ Mit den folgenden Kommandos können die Images gelöscht werden:
 
 ## Container erzeugen und Wiki starten via run starten
 
-Nachdem das Image gebaut worden ist, wird mit ``./.docker_run.sh`` via run ein neuer Container erzeugt und das Wiki gestartet. 
+Nachdem das Image gebaut worden ist, wird mit `
+
+   ./.docker_run.sh
+
+via run ein neuer Container erzeugt und das Wiki gestartet. 
 Auf das [Wiki] (http://localhost:8759/) kann mit Port 8759 zugegriffen werden.
 
 Der Container hat den Namen personalwiki. ``docker logs personalwiki`` zeigt die Logs aus dem Container.
